@@ -1,0 +1,23 @@
+/* Manrope (variable weights) */
+@font-face {
+  font-family: "Manrope";
+  src: url("/src/assets/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+}
+
+/* Raleway — normal (variable) */
+@font-face {
+  font-family: "Raleway";
+  src: url("/src/assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+/* Raleway — italic (variable) */
+@font-face {
+  font-family: "Raleway";
+  src: url("/src/assets/fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+}
