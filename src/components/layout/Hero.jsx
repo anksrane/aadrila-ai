@@ -1,5 +1,6 @@
 import {abstarctBg} from "../../assets";
 import {Button} from "../index";
+import {AnimatedCarousel} from "../index";
 
 export default function Hero() {
   return (
@@ -49,9 +50,11 @@ export default function Hero() {
           </div>
 
           {/* RIGHT ANIMATION HOLDER */}
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-center">
             <div className="w-[360px] md:w-[460px] h-[360px] md:h-[460px]">
+            {/* <div className="w-fit h-100"> */}
               {/* 🔹 You will inject animation here later */}
+              <AnimatedCarousel />
             </div>
           </div>
         </div>

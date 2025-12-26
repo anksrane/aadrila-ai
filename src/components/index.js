@@ -2,7 +2,8 @@
 import Hero from "./layout/Hero.jsx";
 
 // Sections
-import Header from "./sections/Header.jsx";
+import Header from "./layout/Header.jsx";
+import AnimatedCarousel from "./sections/AnimatedCarousel.jsx";
 
 // UI
 import Button from "./ui/Button.jsx";
@@ -13,6 +14,7 @@ export {
 
     // Sections
     Header,
+    AnimatedCarousel,
 
     // UI
     Button,
