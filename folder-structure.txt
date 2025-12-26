@@ -1,0 +1,28 @@
+AADRILA-AI
+├── public
+├── src
+│   ├── assets
+│   │   ├── fonts
+│   │   ├── icons
+│   │   └── images
+│   ├── components
+│   │   └── common
+│   │       └── Button.jsx
+│   ├── ── layout
+│   ├── ── sections
+│   ├── ── index.js
+│   ├── styles
+│   │   └── components.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── fonts.css
+│   ├── main.jsx
+│   └── App.css
+├── .gitignore
+├── eslint.config.js
+├── package-lock.json
+├── package.json
+├── index.html
+├── postcss.config.js
+├── README.md
+└── tailwind.config.js

@@ -22,18 +22,28 @@
 
   --color-input-border: #959595;
 }
-@layer utilities {
-  .gradient-text {
-    background: var(--brand-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-  }
+.btn-primary {
+  background: var(--color-primary);
+  color: var(--color-text-white);
+}
 
-  .gradient-btn {
-    background: var(--brand-gradient);
-    color: #fff;
-    cursor: pointer;
-  }
+.btn-outline-primary {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-gradient {
+  background: var(--gradient-shade);
+  color: #fff;
+}
+
+.btn-text-dark {
+  color: var(--color-text-dark);
+}
+.gradient-text {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }

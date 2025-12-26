@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        outfit: ["Outfit", "sans-serif"],
+        manrope: ["Manrope", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+        radioCanadaBig: ["RadioCanadaBig", "sans-serif"],
       },
     },
   },
