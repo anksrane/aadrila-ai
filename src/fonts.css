@@ -24,7 +24,7 @@
 
 /* RadioCanadaBig — normal (variable) */
 @font-face {
-  font-family: "RadioCanadaBig";
+  font-family: "Radio Canada Big";
   src: url("/src/assets/fonts/RadioCanadaBig-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
@@ -32,7 +32,7 @@
 
 /* RadioCanadaBig — italic (variable) */
 @font-face {
-  font-family: "RadioCanadaBig";
+  font-family: "Radio Canada Big";
   src: url("/src/assets/fonts/RadioCanadaBig-Italic-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
   font-style: italic;

@@ -6,7 +6,7 @@ export default {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
-        radioCanadaBig: ["RadioCanadaBig", "sans-serif"],
+        radioCanadaBig: ["Radio Canada Big", "sans-serif"],
       },
     },
   },

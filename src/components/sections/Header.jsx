@@ -74,9 +74,10 @@ export default function Header() {
 
   return (
     // <header className="w-full flex justify-center bg-white">
-    <header className="fixed top-0 left-0 w-full z-50 bg-transparent shadow">
+    <header className="fixed top-2 left-0 w-full z-50">
       {/* Outer container (1440px) */}
-      <div className="w-full max-w-[1440px] px-4 m-auto">
+      <div className="absolute inset-0 -z-10 bg-white/10 backdrop-blur-2xl" />
+      <div className="relative w-full max-w-[1440px] px-4 m-auto">
         {/* Inner container (1280px) */}
         <nav
           role="navigation"
@@ -92,7 +93,7 @@ export default function Header() {
           </div>
 
           {/* Nav Links (center — evenly spaced) */}
-          <ul className="hidden md:flex flex-1 justify-center gap-8 text-[15px] text-[var(--color-text-dark)]">
+          <ul className="hidden md:flex flex-1 justify-center gap-8 text-[16px] text-[var(--color-text-dark)] font-manrope">
             {navLinks.map((link) => (
               <li key={link.label}>
                 <button
@@ -128,7 +129,7 @@ export default function Header() {
         {/* Mobile Menu */}
         {open && (
           <div className="md:hidden w-full max-w-[1280px] mx-auto mt-2 pb-3">
-            <ul className="flex flex-col gap-3 text-[15px]">
+            <ul className="flex flex-col gap-3 text-[14px] font-manrope">
               {navLinks.map((link) => (
                 <li key={link.label}>
                   <button
