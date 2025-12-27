@@ -28,9 +28,9 @@ export default function Industries() {
       </div>
 
       {/* Outer (1440) */}
-      <div className="w-full max-w-[1440px] px-4">
+      <div className="relative w-full max-w-[1440px] px-4">
         {/* Inner (1280) */}
-        <div className="max-w-[1280px] mx-auto relative">
+        <div className="relative max-w-[1280px] mx-auto">
           
           {/* Section Heading */}
           <div className="flex justify-center sm:justify-start">
@@ -44,7 +44,7 @@ export default function Industries() {
           </h2>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 justify-items-center place-items-stretch absolute w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 justify-items-center place-items-stretch w-full">
             <IndustryCard
               as={motion.div}
               custom={0}
