@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10 py-20 md:py-28">
           
           {/* LEFT CONTENT */}
-          <div className="max-w-[560px]">
+          <div className="sm:max-w-[560px] text-center sm:text-left">
             <p className="text-[28px] md:text-[48px] font-bold font-raleway gradient-text w-fit">
               AI-Powered
             </p>
@@ -38,20 +38,20 @@ export default function Hero() {
             </p>
 
             {/* Buttons */}
-            <div className="mt-6 flex flex-wrap gap-4">
+            <div className="mt-6 flex flex-wrap gap-4 justify-center sm:justify-start">
               <Button variant="primary">
                 Get a Demo
               </Button>
 
-              <Button variant="secondary">
+              <Button variant="primary">
                 Explore Solutions
               </Button>
             </div>
           </div>
 
           {/* RIGHT ANIMATION HOLDER */}
-          <div className="flex justify-center">
-            <div className="w-[360px] md:w-[460px] h-[360px] md:h-[460px]">
+          <div className="flex justify-center md:justify-start">
+            <div className="w-[420px] md:w-[460px] h-[360px] md:h-[460px] overflow-hidden">
             {/* <div className="w-fit h-100"> */}
               {/* 🔹 You will inject animation here later */}
               <AnimatedCarousel />

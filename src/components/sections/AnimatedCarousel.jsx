@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { Invoice } from "../../assets/index";
+import { Doc } from "../../assets/index";
+import { License } from "../../assets/index";
 
-const images = [Invoice, Invoice, Invoice];
+const images = [Invoice, Doc, License];
 
 export default function AnimatedCarousel() {
   const [index, setIndex] = useState(0);
@@ -34,7 +36,7 @@ export default function AnimatedCarousel() {
               initial={false}
               animate={{
                 scale: pos === "center" ? 1.1 : 0.85,
-                x: pos === "center" ? 0 : pos === "left" ? -160 : 160,
+                x: pos === "center" ? 0 : pos === "left" ? -200 : 200,
                 opacity: pos === "center" ? 1 : 0.6,
               }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
